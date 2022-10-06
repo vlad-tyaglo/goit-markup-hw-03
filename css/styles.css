@@ -38,20 +38,56 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+  
+}
+
+.hidden-title {
+    display: none;
 }
 
 .page-head-container {
  display: flex;
  align-items: center;
+ justify-content: space-between;
+ padding-top: 32px;
+ padding-bottom: 32px;
 }
+.basement-container{
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.specialty-list {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ align-items: flex-start;
+}
+
+.activity-list {
+ display: flex;
+ align-items: center;
+ column-gap: 30px;
+}
+
+.team-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+   }
 
 .page-navigation{
     display: flex;
     align-items: center;
+    
 }
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.section-hat {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .list {
@@ -64,9 +100,9 @@ img {
     column-gap: 50px;
 }
 
-.mail-head {
+/* .mail-head {
     margin-left: 344px;
-}
+} */
 
 .link:hover, 
 .link:focus {
@@ -126,6 +162,8 @@ img {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-bottom: 30px;
+  
 }
 
 .specialty-title {
@@ -133,6 +171,7 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    padding-bottom: 10px;
 }
 
 
@@ -149,6 +188,8 @@ img {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 /* навигация по шапке */
@@ -181,8 +222,20 @@ img {
     letter-spacing: 0.03em;
     font-style: normal;
     text-decoration: none;
+    padding-bottom: 9px;
+    display: inline-block;
 }
 
+.basement-contact-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--basement-contact-color);
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+    padding-bottom: 9px;
+    display: inline-block;
+}
 .basement-contact {
     font-size: 14px;
     line-height: 1.71;
@@ -197,6 +250,8 @@ img {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 .team-title {
@@ -247,6 +302,8 @@ img {
     font-family: 'Raleway';
     text-decoration: none;
     color: var(--title-text-color);
+    padding-bottom: 20px;
+    display: inline-block;
 }
 .accent {
     font-weight: 700;
@@ -260,6 +317,7 @@ img {
 
 .hat {
     background-color: var(--secondary-background-color);
+    text-align: center;
 }
 
 .workers {
