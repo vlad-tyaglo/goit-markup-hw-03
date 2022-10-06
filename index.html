@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
 
   <header>
-    <nav>
-      <a class="logo" href=""><spa class="accent">Web</spa>Studio</a>
-        <ul class="list">
-          <li><a class="link" href="">Студія</a></li>
-          <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="link" href="">Контакти</a></li>
+    <div class="container page-head-container">
+        <nav class="page-navigation">
+          <a class="logo" href=""><spa class="accent">Web</spa>Studio</a>
+            <ul class="menu list">
+              <li><a class="link" href="">Студія</a></li>
+              <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
+              <li><a class="link" href="">Контакти</a></li>
+            </ul>
+        </nav>
+        <ul class="menu list">
+              <li><a class="contact mail-head" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a class="contact phone-head" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-    </nav>
-    <ul class="list">
-        <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
+    </div>
   </header>
 
   <main>
-    <section class="hat">
-      <h1 class="hat-title">Ефективні рішення для вашого бізнесу</h1>
-      <button class="button-hat" type="button">Замовити послугу</button>
+    <section class="hat section">
+      <div class="container">
+        <h1 class="hat-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="button-hat" type="button">Замовити послугу</button>
+      </div>
     </section>
-
-    <section>
+    
+    
+    <section class="section">
+      <div class="container">
         <h2>Наші переваги</h2>
         <ul class="list">
             <li>
@@ -51,18 +58,22 @@
                 <p class="specialty-paragraph">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
         </ul>
+      </div>
     </section>
-
-    <section>
+  
+  <section class="section">
+    <div class="container">
         <h2 class="activity">Чим ми займаємося</h2>
         <ul class="list">
             <li><img src="./images/img1.jpg" alt="Ноутбук" width="370"></li>
             <li><img src="./images/img2.jpg" alt="Телефон" width="370"></li>
             <li><img src="./images/img3.jpg" alt="Планшет" width="370"></li>
         </ul>
-    </section>
-
-    <section class="workers">
+    </div>
+  </section>
+    
+  <section class="workers section">
+    <div class="container">
         <h2 class="team">Наша команда</h2>
         <ul class="list">
             <li>
@@ -85,18 +96,21 @@
                 <p class="team-paragraph">UI Designer</p>
             </li>
         </ul>
-    </section>
+    </div> 
+  </section>
   </main>
 
   <footer class="basement">
-    <a class="basement-logo" href=""><spa class="accent">Web</spa>Studio</a>
-    <address>
+    <div class="container">
+        <a class="basement-logo" href=""><spa class="accent">Web</spa>Studio</a>
+      <address>
         <ul class="list">
           <li><a class="basement-adress" href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000">м. Київ, пр-т Лесі Українки, 26</a></li>
           <li><a class="basement-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a class="basement-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-    </address>
+      </address>
+    </div>
   </footer>
 </body>
 </html>
