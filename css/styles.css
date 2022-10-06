@@ -1,0 +1,224 @@
+:root {
+--primary-text-color: #212121;
+--paragraph-text-color: #757575;
+--accent-color: #2196F3;
+--title-text-color: #FFFFFF;
+--background-basic-color: #FFFFFF;
+--secondary-background-color: #2F303A;
+--button-background-color: #F5F4FA;  
+--basement-contact-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--background-basic-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link:hover, 
+.link:focus {
+    color: var(--accent-color);
+}
+
+.contact:hover, 
+.contact:focus {
+    color: var(--accent-color);
+}
+
+.basement-link:hover, 
+.basement-link:focus {
+    color: var(--accent-color);
+}
+
+.button-link:hover,
+.button-link:focus{
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+}
+
+.basement-adress:hover, 
+.basement-adress:focus {
+    color: var(--accent-color);
+}
+
+.basement-contact:hover, 
+.basement-contact:focus {
+    color: var(--accent-color);
+}
+
+.button-link {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    background-color: var(--button-background-color);
+    letter-spacing: 0.03em;
+    line-height: 1.63;
+}
+
+.button-hat {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+    letter-spacing: 0.06em;
+}
+
+.hat-title {
+    color:var(--title-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.specialty-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+
+.specialty-paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--paragraph-text-color);
+    letter-spacing: 0.03em;
+    
+}
+
+.activity {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+/* навигация по шапке */
+
+.link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* контакты шапка*/
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--paragraph-text-color);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+/* контакты подвал */
+.basement-adress {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.basement-contact {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--basement-contact-color);
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-paragraph {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--paragraph-text-color);
+    letter-spacing: 0.03em;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+
+.project-paragraph {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--paragraph-text-color);
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    line-height: 1.19;
+    font-family: 'Raleway';
+}
+
+.basement-logo {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+.accent {
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--accent-color);
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    text-decoration: none;
+}
+
+.hat {
+    background-color: var(--secondary-background-color);
+}
+
+.workers {
+    background-color: var(--button-background-color);
+} 
+
+.basement {
+    background-color: var(--secondary-background-color);
+}
+
+
+
