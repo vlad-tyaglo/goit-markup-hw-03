@@ -15,6 +15,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+header {
+    border-bottom: 1px solid #ECECEC;   /*добавить вар*/
+}
+
 h1,
 h2,
 h3,
@@ -42,7 +46,18 @@ img {
 }
 
 .hidden-title {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .page-head-container {
@@ -51,6 +66,33 @@ img {
  justify-content: space-between;
  padding-top: 32px;
  padding-bottom: 32px;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 50px;
+}
+
+.project-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.project-container {
+    background-color: var(--background-basic-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .basement-container{
@@ -76,6 +118,7 @@ img {
  display: flex;
  align-items: center;
  column-gap: 30px;
+ 
 }
 
 .team-list {
@@ -155,6 +198,10 @@ img {
     background-color: var(--button-background-color);
     letter-spacing: 0.03em;
     line-height: 1.63;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .button-hat {
@@ -289,6 +336,7 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    
 }
 
 
@@ -297,6 +345,7 @@ img {
     line-height: 1.19;
     color: var(--paragraph-text-color);
     letter-spacing: 0.03em;
+   
 }
 
 .logo {
