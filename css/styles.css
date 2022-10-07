@@ -52,15 +52,24 @@ img {
  padding-top: 32px;
  padding-bottom: 32px;
 }
+
 .basement-container{
  padding-top: 60px;
  padding-bottom: 60px;
 }
+
 .specialty-list {
  display: flex;
  align-items: center;
  justify-content: center;
  align-items: flex-start;
+}
+
+.team-container {
+    
+    background-color: var(--background-basic-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .activity-list {
@@ -83,6 +92,10 @@ img {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.section-benefits {
+    padding-top: 94px;
 }
 
 .section-hat {
@@ -259,6 +272,8 @@ img {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .team-paragraph {
@@ -266,6 +281,7 @@ img {
     line-height: 1.19;
     color: var(--paragraph-text-color);
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .project-title {
