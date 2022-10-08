@@ -15,7 +15,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-header {
+.header-class {
     border-bottom: 1px solid #ECECEC;   /*добавить вар*/
 }
 
@@ -66,8 +66,8 @@ img {
  display: flex;
  align-items: center;
  justify-content: space-between;
- padding-top: 32px;
- padding-bottom: 32px;
+ /* padding-top: 32px;
+ padding-bottom: 32px; */
 }
 
 .navigation-list {
@@ -152,7 +152,19 @@ img {
     list-style: none;
 }
 
-.menu {
+/* .menu {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+} */
+
+.site-nav{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.contacts-item {
     display: flex;
     align-items: center;
     column-gap: 50px;
@@ -224,8 +236,10 @@ img {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-bottom: 30px;
-  
+    margin-bottom: 30px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .specialty-title {
@@ -264,6 +278,12 @@ img {
     letter-spacing: 0.02em;
     font-style: normal;
     text-decoration: none;
+}
+
+.site-nav-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 /* контакты шапка*/
@@ -345,7 +365,7 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    
+    margin-bottom: 4px;
 }
 
 
